@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.viets.acnl</id>
+    <name>ACNL</name>
+    <version>1.0</version>
+    <publisher>christinevi</publisher>
+    <url/>
+    <description/>
+    <copyright>2016 by christinevi</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>30156590-eb35-4c63-9ddd-3a6d76a20889</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">false</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.2.2.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">572f6ffad1abf3b650e2ccda</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">SnQFIbAxgApxoTJnc0p0yYHWSYxh2P3q</property>
+    <property name="acs-oauth-key-development" type="string">W4xBcQBY0Ki4kMTvd84A0eN0eDrEUOW7</property>
+    <property name="acs-api-key-development" type="string">MXr55MugZVYbzG2BuKed8UaZj38fHa1g</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">hvdbgxU3UhzsnVpjjT</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">UnfIdCT2ez3FCEZQ3OSKKxoVGIOKetun</property>
+    <property name="acs-oauth-key-production" type="string">nAaGkLwGp5zLQAAjVSAgik8X1SaSm6Ix</property>
+    <property name="acs-api-key-production" type="string">yVgCQGxosFNqV0xsz4enFzq9gIsC0GG7</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">B0zexclTZYkz3x3uLf</property>
+    <property name="appc-org-id" type="string">100029596</property>
+    <property name="appc-creator-user-id" type="string">b74f71b9-2279-4ed1-a54e-3d1fd7f11183</property>
+</ti:app>
